@@ -9,6 +9,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Planner',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF0abab5)),
+        useMaterial3: true,
+      ),
       routes: mainNavigation.routes,
       initialRoute: mainNavigation.initialRoute,
       debugShowCheckedModeBanner: false,

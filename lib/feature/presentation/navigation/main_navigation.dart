@@ -4,7 +4,7 @@ import 'package:planner/feature/presentation/widgets/splash_screen.dart';
 
 abstract class MainNavigationRouteNames {
   static const splashScreen = '/';
-  static const homeScreen = '/home';
+  static const homeScreen = '/homeScreen';
 }
 
 class MainNavigation {
